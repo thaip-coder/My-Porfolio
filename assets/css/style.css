@@ -17,6 +17,7 @@
     padding-bottom: 5px;
     color: white;
     background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
 }
 
 #collap-head-projects {
@@ -24,6 +25,7 @@
     padding-bottom: 5px;
     color: white;
     background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
 }
 
 #parallax-container {
