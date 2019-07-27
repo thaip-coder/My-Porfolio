@@ -46,11 +46,12 @@
 }
 
 .cc-bg {
-    background-image: url(../images/backgrounds/random_grey_variations.png);
+    background-color: #e0e0e0;
+    /*background-image: url(../images/backgrounds/random_grey_variations.png);*/
 }
 
 #cl-bg {
-    background-color: #0d47a1;
+    background-color: #64b5f6;
 }
 
 #repository {
