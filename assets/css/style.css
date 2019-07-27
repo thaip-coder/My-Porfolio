@@ -9,7 +9,7 @@
 .header {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 40px;
+    margin-left: 75px;
 }
 
 #collap-head-me {
@@ -61,10 +61,24 @@
     color: white;
 }
 
+link {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .link:hover {
     color: turquoise;
 }
 
 #employer-links {
     line-height: 0.20in;
+}
+
+.thumbnail {
+    width: 350px;
+    height: 250px;
+    opacity: 0.6;
+}
+
+.thumbnail:hover {
+    opacity: 1.0;
 }
