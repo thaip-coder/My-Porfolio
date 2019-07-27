@@ -6,17 +6,20 @@
     margin: 0px;
 }
 
-#collap-div {
-    margin: 0px;
-}
-
 .header {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 40px;
 }
 
-#collap-head {
+#collap-head-me {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-image: url(../images/backgrounds/prism.png);
+}
+
+#collap-head-projects {
     padding-top: 5px;
     padding-bottom: 5px;
     color: white;
