@@ -19,6 +19,8 @@
 #collap-head {
     padding-top: 5px;
     padding-bottom: 5px;
+    color: white;
+    background-image: url(../images/backgrounds/prism.png);
 }
 
 #parallax-container {
@@ -29,4 +31,28 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 0.25in;
     text-indent: .35in;
+}
+
+#nav-bg {
+    background-image: url(../images/backgrounds/prism.png);
+}
+
+#footer-bg {
+    background-image: url(../images/backgrounds/prism.png);
+}
+
+#collap-body-bg {
+    background-image: url(../images/backgrounds/interlaced.png);
+}
+
+.cc-bg {
+    background-image: url(../images/backgrounds/random_grey_variations.png);
+}
+
+#cl-bg {
+    background-color: #0d47a1;
+}
+
+#repository {
+    color: white;
 }
