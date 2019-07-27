@@ -9,7 +9,7 @@
 .header {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 75px;
+    margin-left: 60px;
 }
 
 #collap-head-me {
@@ -32,8 +32,9 @@
 
 #about-me {
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 0.25in;
+    line-height: 0.3in;
     text-indent: .35in;
+    font-size: 6mm;
 }
 
 #nav-bg {
@@ -61,7 +62,7 @@
     color: white;
 }
 
-link {
+.link {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -81,4 +82,8 @@ link {
 
 .thumbnail:hover {
     opacity: 1.0;
+}
+
+#emp-comp {
+    line-height: 0.20in;
 }
