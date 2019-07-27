@@ -1,5 +1,6 @@
 #portfolio {
     margin-left: 55px;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 #collap-bg {
@@ -10,6 +11,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 55px;
+    font-family: 'Darker Grotesque', sans-serif;
 }
 
 #collap-head-me {
@@ -42,6 +44,10 @@
 #nav-bg {
     background-image: url(../images/backgrounds/prism.png);
     border-bottom: solid 3px #0d47a1;
+}
+
+.nav-links {
+    font-family: 'Dosis', sans-serif;
 }
 
 #footer-bg {
@@ -90,4 +96,8 @@
 
 #emp-comp {
     line-height: 0.20in;
+}
+
+#top {
+    background-color: #0d47a1;
 }
