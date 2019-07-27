@@ -34,12 +34,14 @@ $(document).ready(function(){
           }, 600);
     });
 
+    /* ---------- Focuses About Me ----------*/
     $("#collap-head-me").on("click", function() {
         $('html, body').animate({
             scrollTop: $("#collap-head-me").offset().top
           }, 600);
     });
 
+    /* ---------- Focuses Projects ----------*/
     $("#collap-head-projects").on("click", function() {
         $('html, body').animate({
             scrollTop: $("#collap-head-projects").offset().top
