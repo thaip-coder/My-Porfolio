@@ -57,3 +57,11 @@
 #repository {
     color: white;
 }
+
+.link:hover {
+    color: turquoise;
+}
+
+#employer-links {
+    line-height: 0.20in;
+}
