@@ -87,7 +87,7 @@
 .thumbnail {
     width: 350px;
     height: 250px;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .thumbnail:hover {
@@ -100,4 +100,16 @@
 
 #top {
     background-color: #0d47a1;
+}
+
+#ethnic-card {
+    border-left: solid 5px #0d47a1;
+}
+
+#star-card {
+    border-left: solid 5px #0d47a1;
+}
+
+#halo-card {
+    border-left: solid 5px #0d47a1;
 }
