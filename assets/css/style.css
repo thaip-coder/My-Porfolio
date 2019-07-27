@@ -9,7 +9,7 @@
 .header {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 60px;
+    margin-left: 55px;
 }
 
 #collap-head-me {
@@ -41,10 +41,12 @@
 
 #nav-bg {
     background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
 }
 
 #footer-bg {
     background-image: url(../images/backgrounds/prism.png);
+    border-top: solid 3px #0d47a1;
 }
 
 #collap-body-bg {
