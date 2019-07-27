@@ -9,6 +9,9 @@
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
         <!-- Compiled and minified JavaScript for materialize library/framework -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <!-- Compiled and minified CSS -->
@@ -28,10 +31,59 @@
             </div>
         </nav>
 
-        <!-- Parallax -->
-        <div class="parallax-container">
-            <div class="parallax"><img src="assets/images/backgrounds/blue-sky-clouds-digital-art-sg-3840x2160.jpg"></div>
+        
+        <!-- Parallax Bio -->
+        <div id="parallax-container" class="parallax-container">
+            <div class="parallax"><img src="assets/images/backgrounds/blue-sky-clouds-digital-art-sg-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
         </div>
+
+            <ul id="collap-div" class="collapsible">
+                <li>
+                    <div id="collap-head" class="collapsible-header">
+                        <h4 class="header">About Me</h4>
+                    </div>
+                    <div class="collapsible-body"><p id="about-me">My full name is Thai Thanh Phan. I was born and raised in Austin, Texas. I attended the University of Texas at San Antonio for pre-pharmacy. Eventually, I discovered that I didn’t want to pursue a career as a pharmacist. After realizing I didn’t really know what I wanted to do, I went back home and attended Austin Community College to save money. After some deliberation, I started on the path to become a nurse. I took the necessary courses, but like pharmacy, found nursing to also be unfit for me. Clearly I was not interested in the medical field. After I quit my pursuit of nursing, I decided to just work and figure things out from there. I did mostly contract delivery jobs for various food deliveries as well as package deliveries for Amazon. I enjoyed the freedom of following my own schedule and choosing when I wanted to work. I did this for a few years and felt that I was becoming stagnant. I was no closer to figuring out a career path than I was when I left nursing behind. So, here I am in this program hoping to create a future for myself.</p></div>
+                </li>
+            </ul>
+        
+        <!-- Parallax Projects -->
+        <div id="collap-bg" class="row container"></div>
+
+        <div id="parallax-container" class="parallax-container">
+            <div class="parallax"><img src="assets/images/backgrounds/digital-art-forest-artwork-8k-87-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+        </div>
+
+            <ul id="collap-div" class="collapsible">
+                <li>
+                    <div id="collap-head" class="collapsible-header">
+                        <h4 class="header">Projects</h4>
+                    </div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+            </ul>
+
+        <div id="collap-bg" class="row container"></div>
+
+        <!-- Parallax Employer Ready-->
+        <div id="parallax-container" class="parallax-container">
+            <div class="parallax"><img src="assets/images/backgrounds/remembering-digital-art-landscape-5k-s1-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+        </div>
+
+            <ul id="collap-div" class="collapsible">
+                <li>
+                    <div id="collap-head" class="collapsible-header">
+                        <h4 class="header">Employer Ready</h4>
+                    </div>
+                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                </li>
+            </ul>
+
+        <div id="parallax-container"  class="parallax-container">
+            <div class="parallax"><img src="assets/images/backgrounds/small-memory-evening-8k-5o-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+        </div>
+
+        <div id="collap-bg" class="row container"></div>
+        
 
         <!-- Footer -->
         <footer class="page-footer">
@@ -59,7 +111,7 @@
                 </div>
             </div>
         </footer>
-        
+
         <!-- Javascript File -->
         <script src="assets/javascript/logic.js"></script>
     </body>
