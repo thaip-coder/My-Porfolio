@@ -18,6 +18,13 @@ main {
     border-bottom: solid 3px #0d47a1;
 }
 
+.header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
 #ethnic-card {
     border-left: solid 5px #0d47a1;
 }
