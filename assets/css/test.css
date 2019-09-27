@@ -1,0 +1,119 @@
+/* For sticky footer */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+/* ------------------ */
+
+#collap-head-projects {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
+}
+
+#ethnic-card {
+    border-left: solid 5px #0d47a1;
+}
+
+#star-card {
+    border-left: solid 5px #0d47a1;
+}
+
+#halo-card {
+    border-left: solid 5px #0d47a1;
+}
+
+#collap-body-bg {
+    background-image: url(../images/backgrounds/interlaced.png);
+}
+
+.cc-bg {
+    background-color: #e0e0e0;
+    /*background-image: url(../images/backgrounds/random_grey_variations.png);*/
+}
+
+#cl-bg {
+    background-color: #64b5f6;
+}
+
+#repository {
+    color: white;
+}
+
+.link {
+    color: #eeeeee;
+}
+
+.link:hover {
+    color: turquoise;
+}
+
+#employer-links {
+    line-height: 0.20in;
+}
+
+.thumbnail {
+    width: 350px;
+    height: 250px;
+    opacity: 0.8;
+}
+
+.thumbnail:hover {
+    opacity: 1.0;
+}
+
+#emp-comp {
+    line-height: 0.20in;
+}
+
+#top {
+    background-color: #0d47a1;
+}
+
+#avatar {
+    border-radius: 50%;
+    width: 100%;
+    height: 300px;
+}
+
+#sideBar {
+    margin: 0px;
+    height: flex;
+}
+
+#pageRow {
+    margin: 0px;
+}
+
+#bodyRow {
+    margin: 0px;
+}
+
+
+
+
+
+
+#nav-bg {
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
+}
+
+.nav-links {
+    font-family: 'Dosis', sans-serif;
+}
+
+#footer {
+    background-image: url(../images/backgrounds/prism.png);
+    border-top: solid 3px #0d47a1;
+}
+
+
+

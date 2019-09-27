@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/test.css">
+
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <!-- Compiled and minified JavaScript for materialize library/framework -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Darker+Grotesque|Dosis|Roboto|Merriweather|Muli&display=swap" rel="stylesheet">
+
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Beginning of Page Container -->
+        <div class="container-fluid col-container">
+            <!-- Begining of Page Row-->
+            <div class="row" id="pageRow">
+                
+                <!-- Side Column -->
+                <div class="col s2 card col-body" id="sideBar">
+                    <div class="card-content">
+                        <h3>Portfolio</h3>
+                        <hr>
+                        <ul>
+                            <li><img id="avatar" src="assets/images/IMG_20190319_120400.jpg"></li>
+                            <li><hr></li>
+                            <li>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. In vitae turpis massa sed elementum. Congue nisi vitae suscipit tellus mauris. Tincidunt eget nullam non nisi est sit amet facilisis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tincidunt arcu non sodales neque sodales ut etiam. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Vestibulum sed arcu non odio euismod lacinia at. Auctor neque vitae tempus quam pellentesque nec. Dignissim diam quis enim lobortis scelerisque. Pulvinar pellentesque habitant morbi tristique senectus et. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Amet est placerat in egestas. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Dui nunc mattis enim ut tellus. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Ut faucibus pulvinar elementum integer enim neque volutpat. Id ornare arcu odio ut. Nec nam aliquam sem et tortor consequat id porta nibh.
+                                </p>
+                            </li>
+                            <li><hr></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Main Body W/Navbar -->
+                <div class="col s10 container-fluid col-body" style="padding-right: 0px; padding-left: 0px;">
+                    <div class="row" id="bodyRow">
+
+                        <!-- Nav Bar -->
+                        <nav class="col s12 z-depth-5" style="width: 100%">
+                            <div id="nav-bg" class="row nav-wrapper">
+                                <ul id="nav-mobile" class="right">
+                                    <li><a id="competitive" class="nav-links">Contact Me</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                        <!-- Parallax -->
+                        <div id="parallax-container" class="parallax-container col s12">
+                            <div class="parallax"><img src="assets/images/backgrounds/remembering-digital-art-landscape-5k-s1-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+                        </div>
+
+                        <ul class="collapsible z-depth-5" style="margin: 0px; border: 0px;">
+                            <li>
+                                <div id="collap-head-projects" class="collapsible-header">
+                                    <h4 id="pr" class="header">Projects</h4>
+                                </div>
+                                <div id="collap-body-bg" class="collapsible-body">
+                                
+                                <!-- Container for Cards -->
+                                <div class="container">
+                                    <div class="row">
+
+                                    <!-- Ethnic Eats Card -->
+                                    <div class="col s12 m7">
+                                        <h5 class="thumb-title">Ethnic Eats</h5>
+                                        <div id="ethnic-card" class="card horizontal z-depth-5">
+                                            <div class="card-image">
+                                                <a href="https://tp222.github.io/Project_1/" target="_blank"><img class="thumbnail" src="assets/images/thumbnails/scrnli_7_26_2019_1-36-22 PM.jpeg" style="width: 350px; height: 200px;"></a>
+                                            </div>
+                                            <div class="card-stacked">
+                                                <div class="cc-bg card-content">
+                                                    <p class="thumb-text">This is the first group project I worked on. We made a recipe search website utilizing two inputs: ethnicity and ingredient.</p>
+                                                </div>
+                                                <div id="cl-bg" class="card-action">
+                                                    <a id="repository" href="https://github.com/tp222/Project_1.git" target="_blank">Repository</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Star Wars Game Card -->
+                                    <div class="col s12 m7">
+                                        <h5 class="thumb-title">Star Wars Game</h5>
+                                        <div id="star-card" class="card horizontal z-depth-5">
+                                            <div class="card-image">
+                                                <a href="https://tp222.github.io/Star_Wars/" target="_blank"><img class="thumbnail" src="assets/images/thumbnails/star-wars.jpg" style="width: 350px; height: 200px;"></a>
+                                            </div>
+                                            <div class="card-stacked">
+                                                <div class="cc-bg card-content">
+                                                    <p class="thumb-text">A simple Star Wars click RPG game. Choose a player and battle it out against both friend and foe! See if you have what it takes to be the ultimate warrior!!</p>
+                                                </div>
+                                                <div id="cl-bg" class="card-action">
+                                                    <a id="repository" href="https://github.com/tp222/Star_Wars.git" target="_blank">Repository</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Halo Trivia Game Card -->
+                                    <div class="col s12 m7">
+                                        <h5 class="thumb-title">Halo Trivia Game</h5>
+                                        <div id="halo-card" class="card horizontal z-depth-5">
+                                            <div class="card-image">
+                                                <a href="https://tp222.github.io/TriviaGame/" target="_blank"><img class="thumbnail" src="assets/images/thumbnails/halo-infinite-8k-d0-3840x2160.jpg" style="width: 350px; height: 200px;"></a>
+                                            </div>
+                                            <div class="card-stacked">
+                                                <div class="cc-bg card-content">
+                                                    <p class="thumb-text">A Halo Trivia Game. The covenant are on the attack!! Quickly join the fray and defend our comrades from enemy forces. Do you have what it takes to send our foes packing??</p>
+                                                </div>
+                                                <div id="cl-bg" class="card-action">
+                                                    <a id="repository" href="https://github.com/tp222/TriviaGame.git" target="_blank">Repository</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div><!-- End of Cards Row -->
+                                </div> <!-- End of Cards Container -->
+
+                                    </div>
+                                </li>
+                            </ul>
+
+                             <!-- Ending Parallax -->
+                            <div id="parallax-container" class="parallax-container">
+                                <div class="parallax"><img src="assets/images/backgrounds/swan-digital-art-4k-bg-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+                            </div>
+
+                        </div> <!-- End of Body Row -->
+                    </div> <!-- End of Body Container -->
+                            
+
+            </div> <!-- End of Page Row -->
+        </div> <!-- End of Page Container -->
+
+        <!-- Footer -->
+        <div class="container-fluid">
+                <footer id="footer" class="page-footer">
+                    <div class="container">
+                        <div class="row">
+                        <div class="col l6 s12">
+                            <h5 class="white-text">Employer Review</h5>
+                            <p id="emp-comp" class="grey-text text-lighten-4">The following links will take you to my LinkedIn and Github. Please review at your leisure.</p>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Links</h5>
+                            <ul id="employer-links">
+                            <li><a class="link text-lighten-3" href="https://www.linkedin.com/in/thai-phan-a38241186/" target="_blank">LinkedIn</a></li>
+                            <li><a class="link text-lighten-3" href="https://github.com/tp222" target="_blank">Github</a></li>
+                            <li><a class="link text-lighten-3" href="dummy-resume.pdf" target="_blank">Resume</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright">
+                        <div id="cr" class="container">
+                            Copyright © 2019 Thai Phan
+                            <a id="top" class="grey-text text-lighten-4 right waves-effect waves-light btn" href="#!"><i class="material-icons">
+                                arrow_upward
+                                </i></a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+        <!-- Javascript File -->
+        <script src="assets/javascript/logic.js"></script>
+    </body>
+    
+ </html>
