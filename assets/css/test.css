@@ -3,11 +3,9 @@
 }
 
 #portfolio {
-    text-align: center;
     font-family: 'Darker Grotesque', sans-serif;
     color: #8F9EE8;
     font-weight: bold;
-    margin-bottom: 55px;
 }
 
 #collap-head-projects {
@@ -143,7 +141,7 @@ hr { display: block; height: 1px;
 
 #nav-bg {
     background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #69618F;
+    border-bottom: solid 6px #0d47a1;
 }
 
 .nav-links {
