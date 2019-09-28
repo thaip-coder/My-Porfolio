@@ -5,7 +5,7 @@
 #portfolio {
     text-align: center;
     font-family: 'Darker Grotesque', sans-serif;
-    color: white;
+    color: #8F9EE8;
     margin-bottom: 55px;
 }
 
@@ -14,8 +14,21 @@
     padding-bottom: 5px;
     color: white;
     background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #0d47a1;
+    border-bottom: solid 3px #8F9EE8;
 }
+
+#collap-head-group {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #8F9EE8;
+}
+
+#parallax-container {
+    height: 450px;
+}
+
 
 .header {
     margin-top: 10px;
@@ -90,6 +103,7 @@
     margin-right: auto;
     width: 65%;
     height: 170px;
+    border: outset 3px #262949;
 }
 
 #sideBar {
@@ -104,7 +118,9 @@
 }
 
 #card-bio {
-    opacity: 0.4;
+    opacity: 0.3;
+    background-color: #8F9EE8;
+    border: outset 3px #262949;
 }
 
 #pageRow {
@@ -115,13 +131,13 @@
     margin: 0px;
 }
 
-
-
-
+hr { display: block; height: 1px;
+    border: 0; border-top: 2px solid #69618F;
+    margin: 1em 0; padding: 0; }
 
 #nav-bg {
     background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #0d47a1;
+    border-bottom: solid 3px #8F9EE8;
 }
 
 .nav-links {

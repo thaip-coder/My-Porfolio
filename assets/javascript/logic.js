@@ -35,9 +35,9 @@ $(document).ready(function(){
     });
 
     /* ---------- Focuses About Me ----------*/
-    $("#collap-head-me").on("click", function() {
+    $("#collap-head-group").on("click", function() {
         $('html, body').animate({
-            scrollTop: $("#collap-head-me").offset().top
+            scrollTop: $("#collap-head-group").offset().top
           }, 600);
     });
 
