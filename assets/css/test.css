@@ -39,10 +39,11 @@
     border-left: solid 5px #0d47a1;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
 }
 
 #collap-body-bg {
-    background-image: url(../images/backgrounds/interlaced.png);
+    background-image: url(../images/backgrounds/interlaced2.png);
 }
 
 .cc-bg {
@@ -102,9 +103,11 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 65%;
+    width: 70%;
     height: 170px;
-    border: outset 3px #262949;
+    border: double 10px #262949;
+    
+
 }
 
 #sideBar {
@@ -123,7 +126,7 @@
 #card-bio {
     opacity: 0.3;
     background-color: white;
-    border: outset 3px #8F9EE8;
+    border: ridge 3px #8F9EE8;
 }
 
 #pageRow {
