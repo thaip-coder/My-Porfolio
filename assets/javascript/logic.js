@@ -20,7 +20,7 @@ $(document).ready(function(){
           }, 600);
     });
 
-    /* ---------- Scroll to Projects ---------- */
+    /* ---------- Scroll to Group Projects ---------- */
     $("#group-proj").on("click", function() {
       $('html, body').animate({
           scrollTop: $("#collap-head-group").offset().top
