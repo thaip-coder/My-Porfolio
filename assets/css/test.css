@@ -12,17 +12,26 @@
 #collap-head-projects {
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
+    color: #8F9EE8;
     background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #8F9EE8;
+    border-bottom: solid 3px #262949;
 }
 
 #collap-head-group {
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
+    color: #8F9EE8;
     background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #8F9EE8;
+    border-bottom: solid 3px #262949;
+}
+
+.header:hover {
+    color: black;
+    text-shadow:
+		-1px -1px 0 #0d47a1,
+		1px -1px 0 #0d47a1,
+		-1px 1px 0 #0d47a1,
+		1px 1px 0 #0d47a1;
 }
 
 #parallax-container {
@@ -37,16 +46,10 @@
     font-family: 'Darker Grotesque', sans-serif;
 }
 
-#ethnic-card {
+#project-card {
     border-left: solid 5px #0d47a1;
-}
-
-#star-card {
-    border-left: solid 5px #0d47a1;
-}
-
-#halo-card {
-    border-left: solid 5px #0d47a1;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #collap-body-bg {
@@ -86,6 +89,15 @@
 
 .thumbnail:hover {
     opacity: 1.0;
+}
+
+.thumb-title {
+    font-family: 'Merriweather', serif;
+}
+
+.thumb-text {
+    line-height: 0.2in;
+    font-family: 'Muli', sans-serif;
 }
 
 #emp-comp {
@@ -137,7 +149,7 @@ hr { display: block; height: 1px;
 
 #nav-bg {
     background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #8F9EE8;
+    border-bottom: solid 3px #262949;
 }
 
 .nav-links {
