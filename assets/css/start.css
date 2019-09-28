@@ -1,0 +1,137 @@
+#portfolio {
+    margin-left: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+#collap-bg {
+    margin: 0px;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+.header:hover {
+    color: black;
+    text-shadow:
+		-1px -1px 0 #0d47a1,
+		1px -1px 0 #0d47a1,
+		-1px 1px 0 #0d47a1,
+		1px 1px 0 #0d47a1;
+}
+
+#collap-head-me {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
+}
+
+#collap-head-projects {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
+}
+
+#parallax-container {
+    height: 350px;
+}
+
+#about-me {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.3in;
+    text-indent: .35in;
+    font-size: 6mm;
+}
+
+#nav-bg {
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #0d47a1;
+}
+
+.nav-links {
+    font-family: 'Dosis', sans-serif;
+}
+
+#footer-bg {
+    background-image: url(../images/backgrounds/prism.png);
+    border-top: solid 3px #0d47a1;
+}
+
+#collap-body-bg {
+    background-image: url(../images/backgrounds/interlaced.png);
+}
+
+.cc-bg {
+    background-color: #e0e0e0;
+    /*background-image: url(../images/backgrounds/random_grey_variations.png);*/
+}
+
+#cl-bg {
+    background-color: #64b5f6;
+}
+
+#repository {
+    color: white;
+}
+
+.link {
+    color: #eeeeee;
+}
+
+.link:hover {
+    color: turquoise;
+}
+
+#employer-links {
+    line-height: 0.20in;
+}
+
+.thumbnail {
+    width: 350px;
+    height: 250px;
+    opacity: 0.8;
+}
+
+.thumbnail:hover {
+    opacity: 1.0;
+}
+
+#emp-comp {
+    line-height: 0.20in;
+}
+
+#top {
+    background-color: #0d47a1;
+}
+
+#ethnic-card {
+    border-left: solid 5px #0d47a1;
+}
+
+#star-card {
+    border-left: solid 5px #0d47a1;
+}
+
+#halo-card {
+    border-left: solid 5px #0d47a1;
+}
+
+.thumb-title {
+    font-family: 'Merriweather', serif;
+}
+
+.thumb-text {
+    line-height: 0.2in;
+    font-family: 'Muli', sans-serif;
+}
+
+
+
+
