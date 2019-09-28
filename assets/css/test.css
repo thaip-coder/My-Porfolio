@@ -1,14 +1,13 @@
-/* For sticky footer */
-body {
+.row-flex {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
 }
 
-main {
-    flex: 1 0 auto;
+#portfolio {
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    margin-bottom: 55px;
 }
-/* ------------------ */
 
 #collap-head-projects {
     padding-top: 5px;
@@ -87,12 +86,22 @@ main {
 #avatar {
     border-radius: 50%;
     width: 100%;
-    height: 300px;
+    height: 265px;
 }
 
 #sideBar {
+    border-radius: 0%;
     margin: 0px;
-    height: flex;
+    border-right: solid 6px #0d47a1 ;
+    background-image: url(../images/backgrounds/prism.png);
+}
+
+#bio {
+    color: black;
+}
+
+#card-bio {
+    opacity: 0.4;
 }
 
 #pageRow {
@@ -102,7 +111,6 @@ main {
 #bodyRow {
     margin: 0px;
 }
-
 
 
 
@@ -119,7 +127,7 @@ main {
 
 #footer {
     background-image: url(../images/backgrounds/prism.png);
-    border-top: solid 3px #0d47a1;
+    border-top: solid 6px #0d47a1;
 }
 
 

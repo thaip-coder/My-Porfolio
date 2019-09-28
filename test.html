@@ -29,27 +29,33 @@
         <!-- Beginning of Page Container -->
         <div class="container-fluid col-container">
             <!-- Begining of Page Row-->
-            <div class="row" id="pageRow">
+            <div class="row row-flex" id="pageRow">
                 
                 <!-- Side Column -->
-                <div class="col s2 card col-body" id="sideBar">
+                <div class="col s2 card z-depth-0" id="sideBar">
                     <div class="card-content">
-                        <h3>Portfolio</h3>
-                        <hr>
+                        <h3 id="portfolio">Portfolio</h3>
                         <ul>
+                            <li><hr></li>
+                            <li><br></li>
                             <li><img id="avatar" src="assets/images/IMG_20190319_120400.jpg"></li>
+                            <li><br></li>
                             <li><hr></li>
+                            <li><br></li>
                             <li>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. In vitae turpis massa sed elementum. Congue nisi vitae suscipit tellus mauris. Tincidunt eget nullam non nisi est sit amet facilisis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tincidunt arcu non sodales neque sodales ut etiam. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Vestibulum sed arcu non odio euismod lacinia at. Auctor neque vitae tempus quam pellentesque nec. Dignissim diam quis enim lobortis scelerisque. Pulvinar pellentesque habitant morbi tristique senectus et. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Amet est placerat in egestas. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. Dui nunc mattis enim ut tellus. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Ut faucibus pulvinar elementum integer enim neque volutpat. Id ornare arcu odio ut. Nec nam aliquam sem et tortor consequat id porta nibh.
-                                </p>
+                                <div class="card" id="card-bio">
+                                    <div class="card-content">
+                                        <p id="bio">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. In vitae turpis massa sed elementum. Congue nisi vitae suscipit tellus mauris. Tincidunt eget nullam non nisi est sit amet facilisis. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tincidunt arcu non sodales neque sodales ut etiam. Consectetur lorem donec massa sapien faucibus et molestie ac feugiat. Vestibulum sed arcu non odio euismod lacinia at. Auctor neque vitae tempus quam pellentesque nec. Dignissim diam quis enim lobortis scelerisque. Pulvinar pellentesque habitant morbi tristique senectus et. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus. Amet est placerat in egestas. Sed cras ornare arcu dui vivamus arcu felis bibendum ut. 
+                                        </p>
+                                    </div>
+                                </div>
                             </li>
-                            <li><hr></li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Main Body W/Navbar -->
+                <!-- Main Body Navbar + Parralax -->
                 <div class="col s10 container-fluid col-body" style="padding-right: 0px; padding-left: 0px;">
                     <div class="row" id="bodyRow">
 
@@ -152,7 +158,7 @@
 
         <!-- Footer -->
         <div class="container-fluid">
-                <footer id="footer" class="page-footer">
+                <footer id="footer" class="page-footer z-depth-5">
                     <div class="container">
                         <div class="row">
                         <div class="col l6 s12">
