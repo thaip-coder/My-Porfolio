@@ -4,8 +4,17 @@
 
 #portfolio {
     font-family: 'Darker Grotesque', sans-serif;
-    color: #8F9EE8;
-    font-weight: bolder;
+    color: #0C131B;
+    margin: 0px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#card-title {
+    opacity: 0.3;
+    background-color: white;
+    border: ridge 3px #8F9EE8;
+    margin-bottom: 7.5px;
 }
 
 #collap-head-projects {
