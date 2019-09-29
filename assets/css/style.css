@@ -37,6 +37,11 @@
     border-bottom: solid 3px #69618F;
 }
 
+#submit {
+    margin-left: 11.25px;
+    background-color: #0d47a1;
+}
+
 #parallax-container {
     height: 400px;
 }
