@@ -76,11 +76,11 @@
 
 #me-card {
     margin: 40px;
+    opacity: 0.8;
 }
 #me-pad {
     margin-top: 10px;
     padding: 0px;
-    opacity: 0.8;
 }
 
 .cc-bg {
