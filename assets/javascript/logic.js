@@ -9,7 +9,7 @@ $(document).ready(function(){
     /* ---------- Scroll to Contact ---------- */
     $("#contact").on("click", function() {
         $('html, body').animate({
-            scrollTop: $("#collap-head-me").offset().top
+            scrollTop: $("#collap-head-contact").offset().top
           }, 600);
     });
 
@@ -28,7 +28,7 @@ $(document).ready(function(){
     });
 
     /* ---------- Scroll to Footer ---------- */
-    $("#competitive").on("click", function() {
+    $("#info").on("click", function() {
         $('html, body').animate({
             scrollTop: $("#cr").offset().top
           }, 600);
@@ -68,6 +68,21 @@ $(document).ready(function(){
       if ($("#collap-head-projects").hasClass("active")) {
         $("#collap-head-projects").removeClass("active");
         $("#collap-head-projects").addClass("inactive");
+      };
+    });
+
+    /* ---------- Focuses Projects ----------*/
+    $("#collap-head-contact").on("click", function() {
+      if ($("#collap-head-contact").hasClass("inactive")) {
+        $('html, body').animate({
+          scrollTop: $("#collap-head-contact").offset().top
+        }, 600);
+        $("#collap-head-contact").removeClass("inactive");
+        $("#collap-head-contact").addClass("active");
+      } else 
+      if ($("#collap-head-contact").hasClass("active")) {
+        $("#collap-head-contact").removeClass("active");
+        $("#collap-head-contact").addClass("inactive");
       };
     });
 
