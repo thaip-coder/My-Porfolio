@@ -6,6 +6,9 @@ $(document).ready(function(){
     /* ---------- Initiate Collapsible ---------- */
     $('.collapsible').collapsible();
 
+    /* ---------- Initiate Floating Button ----------*/
+      $('.fixed-action-btn').floatingActionButton();
+
     /* ---------- Scroll to Contact ---------- */
     $("#contact").on("click", function() {
         $('html, body').animate({
