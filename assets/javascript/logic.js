@@ -74,7 +74,7 @@ $(document).ready(function(){
       };
     });
 
-    /* ---------- Focuses Contact Form ----------*/
+    /* ---------- Focuses Projects ----------*/
     $("#collap-head-contact").on("click", function() {
       if ($("#collap-head-contact").hasClass("inactive")) {
         $('html, body').animate({
