@@ -68,8 +68,9 @@
 
 #me-bg {
     background-image: url(../images/backgrounds/ios7-original-4k-3840x2160.jpg);
-    background-size: 1600px 800px;
+    background-size: 1585px 1000px;
     border-bottom: solid 6px #0d47a1;
+    background-position: center;
 }
 
 .shadow {
