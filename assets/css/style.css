@@ -12,7 +12,7 @@
 #card-title {
     opacity: 0.3;
     background-color: white;
-    border: ridge 3px #8F9EE8;
+    border: solid 4px #0d47a1;
     margin-bottom: 7.5px;
 }
 
@@ -192,7 +192,7 @@
 #card-bio {
     opacity: 0.3;
     background-color: white;
-    border: ridge 3px #8F9EE8;
+    border: solid 3px #0d47a1;
 }
 
 #pageRow {
