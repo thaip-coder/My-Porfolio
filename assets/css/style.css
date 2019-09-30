@@ -1,76 +1,98 @@
-#portfolio {
-    margin-left: 20px;
-    font-family: 'Darker Grotesque', sans-serif;
+.row-flex {
+    display: flex;
 }
 
-#collap-bg {
+#portfolio {    
+    color: #0C131B;
     margin: 0px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#card-title {
+    opacity: 0.3;
+    background-color: white;
+    border: ridge 3px #8F9EE8;
+    margin-bottom: 7.5px;
+}
+
+#collap-head-projects {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #69618F;
+}
+
+#collap-head-group {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #69618F;
+}
+
+#collap-head-contact {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 3px #69618F;
+}
+
+#submit {
+    margin-left: 11.25px;
+    background-color: #0d47a1;
+}
+
+#parallax-container {
+    height: 400px;
 }
 
 .header {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 55px;
+    color: #8F9EE8;
     font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
 }
 
-.header:hover {
-    color: black;
-    text-shadow:
-		-1px -1px 0 #0d47a1,
-		1px -1px 0 #0d47a1,
-		-1px 1px 0 #0d47a1,
-		1px 1px 0 #0d47a1;
-}
-
-#collap-head-me {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-    background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #0d47a1;
-}
-
-#collap-head-projects {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-    background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #0d47a1;
-}
-
-#parallax-container {
-    height: 350px;
-}
-
-#about-me {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 0.3in;
-    text-indent: .35in;
-    font-size: 6mm;
-}
-
-#nav-bg {
-    background-image: url(../images/backgrounds/prism.png);
-    border-bottom: solid 3px #0d47a1;
-}
-
-.nav-links {
-    font-family: 'Dosis', sans-serif;
-}
-
-#footer-bg {
-    background-image: url(../images/backgrounds/prism.png);
-    border-top: solid 3px #0d47a1;
+#project-card {
+    border-left: solid 5px #0d47a1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 #collap-body-bg {
-    background-image: url(../images/backgrounds/interlaced.png);
+    background-image: url(../images/backgrounds/interlaced2.png);
+}
+
+#me-bg {
+    background-image: url(../images/backgrounds/ios7-original-4k-3840x2160.jpg);
+    background-size: 1600px 800px;
+    border-bottom: solid 6px #0d47a1;
+}
+
+.shadow {
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+#me-card {
+    margin: 40px;
+    opacity: 0.8;
+}
+#me-pad {
+    margin-top: 10px;
+    padding: 0px;
 }
 
 .cc-bg {
     background-color: #e0e0e0;
-    /*background-image: url(../images/backgrounds/random_grey_variations.png);*/
+}
+
+.mc-bg {
+    background-color: #e0e0e0;
 }
 
 #cl-bg {
@@ -103,26 +125,6 @@
     opacity: 1.0;
 }
 
-#emp-comp {
-    line-height: 0.20in;
-}
-
-#top {
-    background-color: #0d47a1;
-}
-
-#ethnic-card {
-    border-left: solid 5px #0d47a1;
-}
-
-#star-card {
-    border-left: solid 5px #0d47a1;
-}
-
-#halo-card {
-    border-left: solid 5px #0d47a1;
-}
-
 .thumb-title {
     font-family: 'Merriweather', serif;
 }
@@ -132,6 +134,92 @@
     font-family: 'Muli', sans-serif;
 }
 
+#emp-comp {
+    line-height: 0.20in;
+}
+
+#top {
+    background-color: #0d47a1;
+}
+
+#avatar {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 170px;
+    border: double 10px #0d47a1;
+    
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+   
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-10px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+#sideBar {
+    border-radius: 0%;
+    margin: 0px;
+    border-right: solid 6px #0d47a1;
+    background-image: url(../images/backgrounds/prism.png);
+}
+
+#bio {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.3in;
+    text-indent: .35in;
+    font-size: 5mm;
+    
+}
+
+#card-bio {
+    opacity: 0.3;
+    background-color: white;
+    border: ridge 3px #8F9EE8;
+}
+
+#pageRow {
+    margin: 0px;
+}
+
+#bodyRow {
+    margin: 0px;
+}
+
+hr { display: block; height: 1px;
+    border: 0; border-top: 2px solid #69618F;
+    margin: 1em 0; padding: 0; }
+
+#nav-bg {
+    background-image: url(../images/backgrounds/prism.png);
+    border-bottom: solid 6px #0d47a1;
+}
+
+.nav-links {
+    font-family: 'Dosis', sans-serif;
+}
+
+#footer {
+    background-image: url(../images/backgrounds/prism.png);
+    border-top: solid 6px #0d47a1;
+}
 
 
 

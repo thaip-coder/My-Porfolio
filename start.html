@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>My Portfolio</title>
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/start.css">
+
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <!-- Compiled and minified JavaScript for materialize library/framework -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Cinzel|Darker+Grotesque|Dosis|Roboto|Merriweather|Muli&display=swap" rel="stylesheet">
+
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Beginning of page container -->
+        <div class="container-fluid">
+
+            <div class="row">
+        <!-- Nav Bar -->
+        <nav class="z-depth-5">
+            <div id="nav-bg" class="row nav-wrapper">
+                <a href="https://github.com/tp222/My-Porfolio.git" target="_blank" class="brand-logo left" id="portfolio" style="background-color: #0d47a1; padding-left: 20px; padding-right: 20px;">Portfolio</a>
+                <ul id="nav-mobile" class="right" style="margin-right: 20px;">
+                    <li><a id="bio" class="nav-links">About Me</a></li>
+                    <li><a id="projects" class="nav-links">Projects</a></li>
+                    <li><a id="competitive" class="nav-links">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        
+        <!-- Parallax Bio -->
+        <div id="parallax-container" class="parallax-container">
+            <div class="parallax"><img src="assets/images/backgrounds/digital-art-forest-artwork-8k-87-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+        </div>
+
+            <ul class="collapsible z-depth-5" style="margin: 0px; border: 0px;">
+                <li>
+                    <div id="collap-head-me" class="collapsible-header">
+                        <h4 class="header">About Me</h4>
+                    </div>
+                    <div id="collap-body-bg" class="collapsible-body"><p id="about-me">My full name is Thai Thanh Phan. I was born and raised in Austin, Texas. I attended the University of Texas at San Antonio for pre-pharmacy. Eventually, I discovered that I did not want to pursue a career as a pharmacist. After realizing I didn’t really know what I wanted to do, I went back home and attended Austin Community College to save money. After some deliberation, I started on the path to becoming a nurse. I took the necessary courses, but like pharmacy, found nursing to also be unfit for me. My interests were clearly not aligned with the medical field. After I quit my pursuit of nursing, I decided to just work and figure things out from there. I did mostly contract delivery jobs for various food deliveries as well as package deliveries for Amazon. I enjoyed the freedom of following my own schedule and choosing when I wanted to work. I did this for a few years and felt that I was becoming stagnant. I was no closer to figuring out a career path than I was when I left nursing behind. So, here I am in this program hoping to create a future for myself.</p></div>
+                </li>
+            </ul>
+        
+        <!-- Parallax Projects -->
+        <div id="collap-bg" class="row container"></div>
+
+        <div id="parallax-container" class="parallax-container">
+            <div class="parallax"><img src="assets/images/backgrounds/remembering-digital-art-landscape-5k-s1-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+        </div>
+
+            <ul class="collapsible z-depth-5" style="margin: 0px; border: 0px;">
+                <li>
+                    <div id="collap-head-projects" class="collapsible-header">
+                        <h4 id="pr" class="header">Projects</h4>
+                    </div>
+                    <div id="collap-body-bg" class="collapsible-body">
+                    
+                    <!-- Container for Cards -->
+                    <div class="container">
+
+                        <!-- Ethnic Eats Card -->
+                        <div class="col s12 m7">
+                            <h5 class="thumb-title">Ethnic Eats</h5>
+                            <div id="ethnic-card" class="card horizontal z-depth-5">
+                                <div class="card-image">
+                                    <a href="https://tp222.github.io/Project_1/" target="_blank"><img class="thumbnail" src="assets/images/thumbnails/scrnli_7_26_2019_1-36-22 PM.jpeg" style="width: 350px; height: 200px;"></a>
+                                </div>
+                                <div class="card-stacked">
+                                    <div class="cc-bg card-content">
+                                        <p class="thumb-text">This is the first group project I worked on. We made a recipe search website utilizing two inputs: ethnicity and ingredient.</p>
+                                    </div>
+                                    <div id="cl-bg" class="card-action">
+                                        <a id="repository" href="https://github.com/tp222/Project_1.git" target="_blank">Repository</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Star Wars Game Card -->
+                        <div class="col s12 m7">
+                            <h5 class="thumb-title">Star Wars Game</h5>
+                            <div id="star-card" class="card horizontal z-depth-5">
+                                <div class="card-image">
+                                    <a href="https://tp222.github.io/Star_Wars/" target="_blank"><img class="thumbnail" src="assets/images/thumbnails/star-wars.jpg" style="width: 350px; height: 200px;"></a>
+                                </div>
+                                <div class="card-stacked">
+                                    <div class="cc-bg card-content">
+                                        <p class="thumb-text">A simple Star Wars click RPG game. Choose a player and battle it out against both friend and foe! See if you have what it takes to be the ultimate warrior!!</p>
+                                    </div>
+                                    <div id="cl-bg" class="card-action">
+                                        <a id="repository" href="https://github.com/tp222/Star_Wars.git" target="_blank">Repository</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Halo Trivia Game Card -->
+                        <div class="col s12 m7">
+                            <h5 class="thumb-title">Halo Trivia Game</h5>
+                            <div id="halo-card" class="card horizontal z-depth-5">
+                                <div class="card-image">
+                                    <a href="https://tp222.github.io/TriviaGame/" target="_blank"><img class="thumbnail" src="assets/images/thumbnails/halo-infinite-8k-d0-3840x2160.jpg" style="width: 350px; height: 200px;"></a>
+                                </div>
+                                <div class="card-stacked">
+                                    <div class="cc-bg card-content">
+                                        <p class="thumb-text">A Halo Trivia Game. The covenant are on the attack!! Quickly join the fray and defend our comrades from enemy forces. Do you have what it takes to send our foes packing??</p>
+                                    </div>
+                                    <div id="cl-bg" class="card-action">
+                                        <a id="repository" href="https://github.com/tp222/TriviaGame.git" target="_blank">Repository</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div> <!-- End of Container for Cards -->
+
+                    </div>
+                </li>
+            </ul>
+
+        <div id="collap-bg" class="row container"></div>
+
+        <!-- Ending Parallax -->
+        <div id="parallax-container" class="parallax-container">
+            <div class="parallax"><img src="assets/images/backgrounds/swan-digital-art-4k-bg-3840x2160.jpg" style="width: 1000px; height: 900px;"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer-bg" class="page-footer">
+            <div class="container">
+                <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Employer Competitive</h5>
+                    <p id="emp-comp" class="grey-text text-lighten-4">The following links will take you to my LinkedIn and Github. Please review at your leisure.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul id="employer-links">
+                    <li><a class="link text-lighten-3" href="https://www.linkedin.com/in/thai-phan-a38241186/" target="_blank">LinkedIn</a></li>
+                    <li><a class="link text-lighten-3" href="https://github.com/tp222" target="_blank">Github</a></li>
+                    <li><a class="link text-lighten-3" href="dummy-resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div id="cr" class="container">
+                    Copyright © 2019 Thai Phan
+                    <a id="top" class="grey-text text-lighten-4 right waves-effect waves-light btn" href="#!"><i class="material-icons">
+                        arrow_upward
+                        </i></a>
+                </div>
+            </div>
+        </footer>
+
+        </div> <!-- End of page Row -->
+    </div> <!-- End of page Container -->
+
+        <!-- Javascript File -->
+        <script src="assets/javascript/logic.js"></script>
+    </body>
+    
+ </html>
