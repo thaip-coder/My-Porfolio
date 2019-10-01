@@ -33,7 +33,7 @@ $(document).ready(function(){
     /* ---------- Scroll to Footer ---------- */
     $("#info").on("click", function() {
         $('html, body').animate({
-            scrollTop: $("#cr").offset().top
+            scrollTop: $("#footer").offset().top
           }, 600);
     });
 
