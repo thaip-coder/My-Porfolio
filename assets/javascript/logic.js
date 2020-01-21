@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+    /* ---------- Initiates Tooltips --------- */
+    $(document).ready(function(){
+      $('.tooltipped').tooltip();
+    });  
+
     /* ---------- Initiate Parallax ---------- */
     $('.parallax').parallax();
 
